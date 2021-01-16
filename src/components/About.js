@@ -21,7 +21,7 @@ const About = () => {
               <hr />
               <h4>Top expertise</h4>
               <p>
-                Front-end developer, I have a quite amount of knowledge in javascript and ReactJS
+                Front-end developer, I have a quite amount of knowledge in javascript and ReactJS: 
                 <a href="resume.pdf">Download Resume</a>
               </p>
               <SkillList />
@@ -32,6 +32,9 @@ const About = () => {
               <a href="https://github.com/phast184">Github: @phast184</a>
               <a href="https://www.linkedin.com/in/percy-thanh-nguyen-87a720202/">
                 LinkedIn: Percy Thanh Nguyen
+              </a>
+              <a href="/">
+                Email: phatnguyen1841999@gmail.com
               </a>
             </div>
           </div>

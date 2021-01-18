@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <div className = 'nav-wrapper'>
-        <a href = '#'>
+        <a href = '#contacts'>
 
           <div className ='dots-wrapper'>
             <div className = 'browser-dot' id = 'dot-1'></div>

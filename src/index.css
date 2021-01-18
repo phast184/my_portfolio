@@ -186,7 +186,7 @@ h6 {
 }
 
 #contacts-nav {
-  color: black;
+  color: var(--mainText);
 }
 /*.right-column styles*/
 .right-column {

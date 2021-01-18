@@ -22,10 +22,10 @@ const ProjectList = () => {
     },
     {
       img: Pic3,
-      name: 'Project 3',
+      name: 'Stock Photo',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      url: "https://www.reddit.com/",
+        "Display free stock photos from Unsplash. User can also use this app to search by keywords.",
+      url: "https://stock-photos-hehe.netlify.app/",
     },
   ];
   return (

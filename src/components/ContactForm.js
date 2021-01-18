@@ -24,7 +24,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <section className="s2">
+      <section id = 'contacts' className="s2">
         <div className="main-container">
           <h3 style={{ textAlign: "center" }}>Connect with me</h3>
           <form

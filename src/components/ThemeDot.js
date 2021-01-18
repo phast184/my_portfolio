@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ThemeDot = ({id}) => {
+const ThemeDot = ({id, mode}) => {
     return <>
-    <div className="theme-dot" id={id}></div>
+    <div className="theme-dot" data-mode = {mode} id={id}></div>
     </>
 }
 

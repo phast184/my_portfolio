@@ -3,7 +3,7 @@ import Project from "./Project";
 import Pic1 from '../images/project1.jpg';
 import Pic2 from '../images/project2.jpg';
 import Pic3 from '../images/project3.jpg';
-
+import './ProjectList.css'
 const ProjectList = () => {
   const projectList = [
     {

@@ -1,0 +1,9 @@
+/*Project List style*/
+.post-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+  

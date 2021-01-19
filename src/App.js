@@ -15,7 +15,6 @@ function App() {
   const [theme, setTheme] = useState(getStorageTheme());
   const changeTheme = (id) => {
     setTheme(`${id}-theme`);
-    console.log(theme);
   };
 
   useEffect(() => {

@@ -24,7 +24,7 @@ const IntroLeft = ({changeTheme}) => {
   return (
     <div className="left-column">
       <img src={personal_picture} alt="person" id="profile_pic" />
-      <h5>Personalize Them</h5>
+      <h5>Personalize Theme</h5>
       <div className="theme-options-wrapper">
         {colors_theme.map((color, index) => {
           return <ThemeDot id={color.id} key={index} mode = {color.mode} color = {color} changeTheme = {changeTheme}/>;

@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <section className="s1">
       <div className="main-container">
-        <Greeting context = {"Hello, I'm Percy Nguyen"} />
+        <Greeting context = {"Welcome to my personal space!"} />
         <div className="intro-wrapper">
           <Navbar />
           <IntroLeft />

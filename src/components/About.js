@@ -1,7 +1,7 @@
 import React from "react";
 import SkillList from "./SkillList";
 import social_img from "../images/linkedin.JPG";
-import './About.css'
+import "./About.css";
 const About = () => {
   return (
     <>
@@ -11,8 +11,13 @@ const About = () => {
             <div className="about-me">
               <h4>More about me</h4>
               <p>
-                I am an undergraduate at Seneca College in Toronto, Canada. My
-                major is front-end development.
+                My name is Percy Nguyen. I am an undergraduate at Seneca College
+                in Toronto, Canada. My major is front-end development.
+              </p>
+              <p>
+                I work to develop UX components client-side websites.I
+                programmed myself the same way I work with computers, neat and
+                organized.
               </p>
               <p>
                 Currently, I am looking for an opportunities to work in the
@@ -22,8 +27,9 @@ const About = () => {
               <hr />
               <h4>Top expertise</h4>
               <p>
-                Front-end developer, I have a quite amount of knowledge in javascript and ReactJS: 
-                <a href="resume.pdf">Download Resume</a>
+                Even though I am more into Front-End development, I still have a
+                good grasp of other programming language and databases. <br/>
+                <a href="resume.pdf">Download my resume.</a>
               </p>
               <SkillList />
             </div>
@@ -34,9 +40,7 @@ const About = () => {
               <a href="https://www.linkedin.com/in/percy-thanh-nguyen-87a720202/">
                 LinkedIn: Percy Thanh Nguyen
               </a>
-              <a href="/">
-                Email: phatnguyen1841999@gmail.com
-              </a>
+              <a href="/">Email: phatnguyen1841999@gmail.com</a>
             </div>
           </div>
         </div>

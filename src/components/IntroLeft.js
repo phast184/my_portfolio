@@ -1,6 +1,7 @@
 import React from "react";
 import personal_picture from "../images/Percy.jpg";
 import ThemeDot from "../components/ThemeDot";
+import './IntroLeft.css'
 const IntroLeft = () => {
   const colors_theme = [
     {

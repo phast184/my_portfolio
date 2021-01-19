@@ -1,5 +1,5 @@
 import React from "react";
-
+import './SkillList.css'
 const SkillList = () => {
   const skills = [
     "javascript (ES6)",

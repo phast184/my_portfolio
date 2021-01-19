@@ -1,0 +1,48 @@
+.nav-wrapper {
+    border-radius: 5px 5px 0 0;
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    background-color: var(--mainColor);
+    justify-content: space-between;
+  }
+  
+  /*contact a tag style*/
+  .nav-wrapper ul {
+    padding: 0 10px;
+  }
+  
+  #contacts-nav {
+    color: var(--mainText);
+  }
+  
+  /*dots styles*/
+  .dots-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .browser-dot {
+    border-radius: 50%;
+    background-color: var(--mainText);
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+  
+    /*shadow of the dot*/
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  }
+  
+  #dot-1 {
+    background-color: #fc6058;
+  }
+  
+  #dot-2 {
+    background-color: #fec02f;
+  }
+  
+  #dot-3 {
+    background-color: #2aca3e;
+  }

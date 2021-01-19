@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './IntroRight.css'
 const IntroRight = () => {
     return(
         <div className="right-column">

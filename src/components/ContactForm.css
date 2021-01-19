@@ -1,0 +1,41 @@
+/*contact form styles*/
+
+#contact-form{
+    display: block;
+    max-width: 600px;
+    background-color: var(--mainColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control label{
+    line-height: 2.7em;
+}
+.form-control input, #message {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+    margin-bottom: 30px;
+}
+
+
+#message{
+    height: 90px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background-color: var(--buttonColor);
+    color: var(--mainColor);
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+}

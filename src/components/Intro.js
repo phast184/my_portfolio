@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Greeting from './Greeting'
 import IntroRight from "./IntroRight";
 import IntroLeft from "./IntroLeft";
-
+import './Intro.css'
 const Intro = () => {
   return (
     <section className="s1">

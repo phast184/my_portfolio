@@ -1,0 +1,38 @@
+.theme-options-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .theme-dot {
+    border-radius: 50%;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border: 2px solid var(--themeDotBorder);
+    /*add shadows for the them dots*/
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  }
+  
+  .theme-dot:hover {
+    border: 5px solid var(--themeDotBorder);
+    cursor: pointer;
+  }
+  #light-dot {
+    background-color: var(--mainColor);
+  }
+  
+  #blue-dot {
+    background-color: #192734;
+  }
+  
+  #green-dot {
+    background-color: #78866b;
+  }
+  #purple-dot {
+    background-color: #7e4c74;
+  }

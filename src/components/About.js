@@ -1,6 +1,7 @@
 import React from "react";
 import SkillList from "./SkillList";
 import social_img from "../images/linkedin.JPG";
+import './About.css'
 const About = () => {
   return (
     <>

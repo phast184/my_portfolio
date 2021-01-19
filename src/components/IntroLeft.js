@@ -1,24 +1,24 @@
 import React from "react";
 import personal_picture from "../images/Percy.jpg";
 import ThemeDot from "../components/ThemeDot";
-import './IntroLeft.css'
-const IntroLeft = () => {
+import  './IntroLeft.css'
+const IntroLeft = ({changeTheme}) => {
   const colors_theme = [
     {
-      id: "light-dot",
-      mode: "light",
+      id: "light",
+      theme: "light-theme",
     },
     {
-      id: "blue-dot",
-      mode: "blue",
+      id: "blue",
+      theme: "blue-theme",
     },
     {
-      id: "green-dot",
-      mode: "green",
+      id: "green",
+      theme: "green-theme",
     },
     {
-      id: "purple-dot",
-      mode: "purple",
+      id: "purple",
+      theme: "purple-theme",
     },
   ];
   return (
@@ -27,7 +27,7 @@ const IntroLeft = () => {
       <h5>Personalize Them</h5>
       <div className="theme-options-wrapper">
         {colors_theme.map((color, index) => {
-          return <ThemeDot id={color.id} key={index} mode = {color.mode}/>;
+          return <ThemeDot id={color.id} key={index} mode = {color.mode} color = {color} changeTheme = {changeTheme}/>;
         })}
       </div>
 

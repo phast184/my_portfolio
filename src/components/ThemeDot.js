@@ -1,9 +1,14 @@
-import React from 'react';
-import './ThemeDot.css'
-const ThemeDot = ({id, mode}) => {
-    return <>
-    <div className="theme-dot" data-mode = {mode} id={id}></div>
+import { React, useState, useEffect } from "react";
+import "./ThemeDot.css";
+
+
+const ThemeDot = ({ id, changeTheme }) => {
+ 
+  return (
+    <>
+      <div className="theme-dot" id={`${id}-dot`} onClick = {(e) => changeTheme(id)}></div>
     </>
-}
+  );
+};
 
 export default ThemeDot;

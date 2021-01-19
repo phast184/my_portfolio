@@ -15,5 +15,26 @@
       "left-column right-column";
     grid-gap: 100;
   }
+  @media screen and (max-width: 1200px) {
+    /*if we don't put it, the nav bar will display overflow of the screen*/
+    .main-container {
+      width: 95%;
+    }
+  }
 
+  @media screen and (max-width: 800px) {
+    /*when the max width of the device is 800px
+      grid column is only 1fr at a time*/
+    .intro-wrapper {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "nav-wrapper"
+        "left-column"
+        "right-column";
+    }
   
+    .right-column {
+      border-top: 2px solid var(--borderColor);
+      justify-content: center;
+    }
+  }

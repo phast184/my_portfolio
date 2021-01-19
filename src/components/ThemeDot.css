@@ -23,7 +23,7 @@
     cursor: pointer;
   }
   #light-dot {
-    background-color: var(--mainColor);
+    background-color: white;
   }
   
   #blue-dot {

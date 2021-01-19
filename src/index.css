@@ -1,4 +1,4 @@
-:root {
+:root, .light-them {
   --mainColor: #eaeaea;
   --secondaryColor: #fff;
   --borderColor: #c1c1c1;
@@ -11,6 +11,66 @@
 
   --buttonColor: black;
 }
+
+
+.blue-theme{
+	--mainColor:#15202B;
+	--secondaryColor:#192734;
+
+	--borderColor:#164D56;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--previewShadow:#111921;
+
+
+	--buttonColor:#17a2b8;
+}
+
+
+.green-theme{
+	--mainColor:#606B56;
+	--secondaryColor:#515a48;
+
+	--borderColor:#161914;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(81, 90, 72, 0.8);
+	--previewShadow:#2a2f25;
+
+
+	--buttonColor:#669966;
+}
+
+.purple-theme{
+	--mainColor:#46344E;
+	--secondaryColor:#382a3f;
+
+	--borderColor:#1d1520;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(29, 21, 32, 0.8);
+	--previewShadow:#2b202f;
+
+
+	--buttonColor:#8534a3;
+
+
+}
+
+
 
 /* always define this first */
 html,
@@ -87,40 +147,8 @@ h6 {
   margin: 0 auto;
 }
 
-
-
-
-@media screen and (max-width: 1200px) {
-  /*if we don't put it, the nav bar will display overflow of the screen*/
-  .main-container {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  /*when the max width of the device is 800px
-    grid column is only 1fr at a time*/
-  .intro-wrapper {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "nav-wrapper"
-      "left-column"
-      "right-column";
-  }
-
-  .right-column {
-    border-top: 2px solid var(--borderColor);
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .preview-shadow {
-    max-width: 280px;
-    height: 180px;
-    padding: 10px 0 0 10px;
-  }
-  .preview {
-    width: 270px;
-  }
+.s2{
+  background-color: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow:auto
 }

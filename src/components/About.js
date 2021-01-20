@@ -29,7 +29,7 @@ const About = () => {
               <p>
                 Even though I am more into Front-End development, I still have a
                 good grasp of other programming language and databases. <br/>
-                <a href="resume.pdf">Download my resume.</a>
+                <a href="https://drive.google.com/file/d/1LKWA41B1op3meqcnbjnFjfa_hrl4-yJ6/view?usp=sharing">Download my resume.</a>
               </p>
               <SkillList />
             </div>

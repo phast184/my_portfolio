@@ -1,5 +1,6 @@
 .post {
   padding: 10px;
+  cursor: pointer;
   border: 1px solid var(--borderColor);
   border-radius: 15px;
   background-color: var(--secondaryColor);
@@ -27,4 +28,9 @@
 }
 #project-title {
   text-align: center;
+}
+
+.post-link{
+  display: flex;
+  justify-content: space-between;
 }
